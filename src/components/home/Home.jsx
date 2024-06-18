@@ -13,9 +13,13 @@ const Home = () => {
 
                 <div className="home__img"></div>
 
-                <Data />
+                <div className="data-48rem-hide">
+                  <Data />
+                </div>
             </div>
-
+            <div className="data-48rem-show">
+              <Data />
+            </div>
             <ScrollDown />
         </div>
     </section>
