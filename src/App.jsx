@@ -4,6 +4,7 @@ import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
 import Projects from './components/projects/Projects';
+import ScrollUp from './components/scroll-up/Scroll';
 import Services from './components/services/Services';
 import Skills from './components/skills/Skills';
 
@@ -21,9 +22,10 @@ function App() {
         <Services />
         <Projects />
         <Contact />
-        <Footer />
       </main>
-      
+
+      <Footer />
+      <ScrollUp />
     </>
   )
 }
