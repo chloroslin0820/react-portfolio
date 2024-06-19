@@ -80,10 +80,11 @@ const Contact = () => {
 
                 <form ref={form} onSubmit={sendEmail} className="contact__form">
                     <div className="contact__form-div">
-                        <label htmlFor="" className="contact__form-tag">
+                        <label htmlFor="email" className="contact__form-tag">
                             Name
                         </label>
                         <input 
+                            id="name"
                             type="text" 
                             name="name" 
                             className="contact__form-input"
@@ -92,10 +93,11 @@ const Contact = () => {
                     </div>
 
                     <div className="contact__form-div">
-                        <label htmlFor="" className="contact__form-tag">
+                        <label htmlFor="email" className="contact__form-tag">
                             Mail
                         </label>
                         <input 
+                            id="email"
                             type="email" 
                             name="email" 
                             className="contact__form-input"
@@ -104,10 +106,11 @@ const Contact = () => {
                     </div>
 
                     <div className="contact__form-div contact__form-area">
-                        <label htmlFor="" className="contact__form-tag">
+                        <label htmlFor="message" className="contact__form-tag">
                             Message
                         </label>
                         <textarea 
+                            id="message"
                             name="message"
                             cols="30"
                             rows="10"
