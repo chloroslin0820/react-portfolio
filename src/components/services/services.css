@@ -55,6 +55,9 @@
     padding: 4.5rem 2.5rem 2.5rem;
     border-radius: 1.5rem;
 }
+.services__modal-content p {
+    text-align: left;
+}
 .services__modal-close {
     position: absolute;
     top: 1.5rem;

@@ -12,9 +12,10 @@ const Works = () => {
       setProjects(projectsData);
     } else {
       const newProjects = projectsData.filter((project) => {
-          return project.category.toLowerCase() === item.name;
-        }
-      );
+        const categoryName = project.category.toLowerCase();
+        const filterName = item.name.toLowerCase();
+        return categoryName.includes(filterName);
+      });
       setProjects(newProjects);
     }
   }, [item]);

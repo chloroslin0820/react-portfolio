@@ -35,10 +35,40 @@
     border-radius: 1rem;
     margin-bottom: var(--mb-1);
 }
+.project__container-git-title {
+    display: flex;
+    margin-bottom: .5rem;
+}
+.project__social-icon i {
+    font-size: 1.1rem;
+    color: var(--container-color);
+    border: 1px solid var(--title-color);
+    padding: 0 .5rem;
+    border-radius: 2rem;
+    background-color: var(--text-color);
+}
+.project__social-icon:hover i {
+    background-color: var(--text-color);
+    color: yellow;
+    box-shadow: .1rem .1rem .1rem yellow;
+}
+.project__social-icon {
+    margin: 0 .5rem;
+}
 .project__title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-5);
+    line-height: 1.6rem;
+}
+.project__title-icon {
+    font-size: 1rem;
+    transition: .4s;
+    color: var(--title-color);
+    line-height: 1.7rem;
+}
+.project__title-icon:hover {
+    transform: translateX(.25rem);
 }
 .project__button {
     color: var(--text-color);
@@ -47,12 +77,12 @@
     align-items: center;
     column-gap: .25rem;
 }
-.project__button-icon {
-    font-size: 1rem;
-    transition: .4s;
+.project__content-icon {
+    font-size: 1.1rem;
+    margin-right: .5rem;
 }
-.project__button:hover .project__button-icon {
-    transform: translateX(.25rem);
+.project__content-tech {
+    font-size: .9rem;
 }
 /***** active project *****/
 .active-project {
