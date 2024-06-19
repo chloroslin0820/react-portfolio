@@ -39,7 +39,7 @@
     margin-bottom: var(--mb-2-5);
 }
 
-/***** breakpoint *****/
+/***** breakpoints *****/
 @media screen and (max-width: 62rem) {
     .about__container {
         grid-template-columns: 1fr;

@@ -97,7 +97,7 @@
     visibility: visible;
 }
 
-/***** breakpoint *****/
+/***** breakpoints *****/
 @media screen and (max-width: 62rem) {
     .services__container {
         grid-template-columns: repeat(3, 13.625rem);

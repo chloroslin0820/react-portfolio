@@ -109,7 +109,7 @@
     display: none;
 }
 
-/***** breakpoint *****/
+/***** breakpoints *****/
 @media screen and (max-width: 62rem) {
     .home__content {
         grid-template-columns: 100px repeat(2, 1fr);
@@ -139,8 +139,6 @@
         margin-left: 7.5rem;
     }
 }
-
-
 @media screen and (max-width: 48rem) {
     .home__content {
         grid-template-columns: 0.5fr 1fr;
@@ -170,7 +168,6 @@
         display: none;
     }
 }
-
 @media screen and (max-width: 22rem) {
     .home__img {
         width: 11.25rem;
