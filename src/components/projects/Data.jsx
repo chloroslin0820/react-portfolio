@@ -20,6 +20,7 @@ const projectImage19 = 'https://ik.imagekit.io/chlorosimg/project_image/p019.png
 const projectImage20 = 'https://ik.imagekit.io/chlorosimg/project_image/p020.png?updatedAt=1718812425345';
 const projectImage21 = 'https://ik.imagekit.io/chlorosimg/project_image/p021.png?updatedAt=1718812437988';
 const projectImage22 = 'https://ik.imagekit.io/chlorosimg/project_image/p022.png?updatedAt=1718812438530';
+const projectImage23 = 'https://ik.imagekit.io/chlorosimg/project_image/p023.png?updatedAt=1718881989210';
 
 const webLink1 = 'https://chloroslin-react-tailwind-t01.vercel.app/';
 const webLink2 = 'https://chloroslin-jsapi-tutorial01.vercel.app/';
@@ -43,6 +44,7 @@ const webLink19 = 'https://chloroslin-python-flask-t01-4212370ab25a.herokuapp.co
 const webLink20 = 'https://chloroslin-spring-mysql-t01-047bf91bc191.herokuapp.com/';
 const webLink21 = 'https://react-node-mysql-t01-f.onrender.com/';
 const webLink22 = 'https://react-mui-t01.onrender.com/';
+const webLink23 = 'https://nextjs-supabase-t01.vercel.app/';
 
 const gitLink1 = 'https://github.com/chloroslin0820/react-tailwind-t01';
 const gitLink2 = 'https://github.com/chloroslin0820/js-api-tutorial01';
@@ -66,7 +68,7 @@ const gitLink19 = 'https://github.com/chloroslin0820/python-flask-t01';
 const gitLink20 = 'https://github.com/chloroslin0820/spring-mysql-t01';
 const gitLink21 = 'https://github.com/chloroslin0820/react-node-mysql-t01';
 const gitLink22 = 'https://github.com/chloroslin0820/react-mui-t01';
-
+const gitLink23 = 'https://github.com/chloroslin0820/nextjs-supabase-t01';
 
 export const projectsData = [
     {
@@ -354,6 +356,19 @@ export const projectsData = [
         database: '',
         deployment: 'Render',
         category: 'client-side',
+    },
+    {
+        id: 23,
+        image: projectImage23,
+        web: webLink23,
+        git: gitLink23,
+        title: 'TodoList -- Supabase',
+        language: 'Javascript',
+        languageFramework: 'Next.js',
+        cssFramework: 'Tailwind',
+        database: 'Supabase',
+        deployment: 'Vercel',
+        category: 'server-side',
     },
 ];
 
