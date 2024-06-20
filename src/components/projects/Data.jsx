@@ -44,7 +44,7 @@ const webLink19 = 'https://chloroslin-python-flask-t01-4212370ab25a.herokuapp.co
 const webLink20 = 'https://chloroslin-spring-mysql-t01-047bf91bc191.herokuapp.com/';
 const webLink21 = 'https://react-node-mysql-t01-f.onrender.com/';
 const webLink22 = 'https://react-mui-t01.onrender.com/';
-const webLink23 = 'https://nextjs-supabase-t01.vercel.app/';
+const webLink23 = 'https://chloroslin-nextjs-supabase-t01.vercel.app/';
 
 const gitLink1 = 'https://github.com/chloroslin0820/react-tailwind-t01';
 const gitLink2 = 'https://github.com/chloroslin0820/js-api-tutorial01';
