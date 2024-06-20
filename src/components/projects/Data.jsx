@@ -363,7 +363,7 @@ export const projectsData = [
         web: webLink23,
         git: gitLink23,
         title: 'TodoList -- Supabase',
-        language: 'Javascript',
+        language: 'Typescript',
         languageFramework: 'Next.js',
         cssFramework: 'Tailwind',
         database: 'Supabase',
