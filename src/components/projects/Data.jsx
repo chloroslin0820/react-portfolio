@@ -405,7 +405,7 @@ export const projectsData = [
     image: projectImage24,
     web: webLink24,
     git: gitLink24,
-    title: "Real-Time Instant Chat & Login, Register",
+    title: "Instant Chat & Login, Reg.",
     language: "Javascript",
     languageFramework: "Next.js",
     cssFramework: "MUI",
