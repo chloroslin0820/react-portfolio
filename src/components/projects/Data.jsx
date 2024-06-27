@@ -408,7 +408,7 @@ export const projectsData = [
     title: "Instant Chat & Login, Reg.",
     language: "Javascript",
     languageFramework: "Next.js",
-    cssFramework: "MUI",
+    cssFramework: "Tailwind, MUI",
     database: "MongoDB",
     deployment: "Vercel",
     category: "client-side, server-side",
