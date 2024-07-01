@@ -50,6 +50,8 @@ const projectImage25 =
   "https://ik.imagekit.io/chlorosimg/project_image/p025.png?updatedAt=1719845581780";
 const projectImage26 = 
   "https://ik.imagekit.io/chlorosimg/project_image/p026.png?updatedAt=1719845600325";
+const projectImage27 = 
+  "https://ik.imagekit.io/chlorosimg/project_image/p027.png?updatedAt=1719859331818";
 
 const webLink1 = "https://chloroslin-react-tailwind-t01.vercel.app/";
 const webLink2 = "https://chloroslin-jsapi-tutorial01.vercel.app/";
@@ -80,6 +82,7 @@ const webLink23 = "https://chloroslin-nextjs-supabase-t01.vercel.app/";
 const webLink24 = "https://chloroslin-nextjs-mongo-t01.vercel.app/";
 const webLink25 = "https://25ef2f19-fe81-4865-b3fc-eca279f210fc.e1-us-east-azure.choreoapps.dev/";
 const webLink26 = "https://django-t01.onrender.com/";
+const webLink27 = "https://chloroslin-django-t02.vercel.app/";
 
 const gitLink1 = "https://github.com/chloroslin0820/react-tailwind-t01";
 const gitLink2 = "https://github.com/chloroslin0820/js-api-tutorial01";
@@ -107,6 +110,7 @@ const gitLink23 = "https://github.com/chloroslin0820/nextjs-supabase-t01";
 const gitLink24 = "https://github.com/chloroslin0820/nextjs-mongo-t01";
 const gitLink25 = "https://github.com/chloroslin0820/django-react-t01";
 const gitLink26 = "https://github.com/chloroslin0820/django-t01";
+const gitLink27 = "https://github.com/chloroslin0820/django-t02";
 
 export const projectsData = [
   {
@@ -445,6 +449,19 @@ export const projectsData = [
     cssFramework: "Swiper Demo",
     database: "",
     deployment: "Render",
+    category: "client-side",
+  },
+  {
+    id: 27,
+    image: projectImage27,
+    web: webLink27,
+    git: gitLink27,
+    title: "Webpage -- Hotel Agency",
+    language: "Python",
+    languageFramework: "Django",
+    cssFramework: "Bootstrap",
+    database: "",
+    deployment: "Vercel",
     category: "client-side",
   },
 ];
