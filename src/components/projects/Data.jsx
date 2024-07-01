@@ -436,7 +436,7 @@ export const projectsData = [
     cssFramework: "Bootstrap",
     database: "PostgreSQL",
     deployment: "Choreo",
-    category: "server-side",
+    category: "server-side, database",
   },
   {
     id: 26,
