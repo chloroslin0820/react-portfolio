@@ -46,6 +46,10 @@ const projectImage23 =
   "https://ik.imagekit.io/chlorosimg/project_image/p023.png?updatedAt=1718881989210";
 const projectImage24 =
   "https://ik.imagekit.io/chlorosimg/project_image/p024.png?updatedAt=1719430492877";
+const projectImage25 = 
+  "https://ik.imagekit.io/chlorosimg/project_image/p025.png?updatedAt=1719845581780";
+const projectImage26 = 
+  "https://ik.imagekit.io/chlorosimg/project_image/p026.png?updatedAt=1719845600325";
 
 const webLink1 = "https://chloroslin-react-tailwind-t01.vercel.app/";
 const webLink2 = "https://chloroslin-jsapi-tutorial01.vercel.app/";
@@ -74,6 +78,8 @@ const webLink21 = "https://react-node-mysql-t01-f.onrender.com/";
 const webLink22 = "https://react-mui-t01.onrender.com/";
 const webLink23 = "https://chloroslin-nextjs-supabase-t01.vercel.app/";
 const webLink24 = "https://chloroslin-nextjs-mongo-t01.vercel.app/";
+const webLink25 = "https://25ef2f19-fe81-4865-b3fc-eca279f210fc.e1-us-east-azure.choreoapps.dev/";
+const webLink26 = "https://django-t01.onrender.com/";
 
 const gitLink1 = "https://github.com/chloroslin0820/react-tailwind-t01";
 const gitLink2 = "https://github.com/chloroslin0820/js-api-tutorial01";
@@ -99,6 +105,8 @@ const gitLink21 = "https://github.com/chloroslin0820/react-node-mysql-t01";
 const gitLink22 = "https://github.com/chloroslin0820/react-mui-t01";
 const gitLink23 = "https://github.com/chloroslin0820/nextjs-supabase-t01";
 const gitLink24 = "https://github.com/chloroslin0820/nextjs-mongo-t01";
+const gitLink25 = "https://github.com/chloroslin0820/django-react-t01";
+const gitLink26 = "https://github.com/chloroslin0820/django-t01";
 
 export const projectsData = [
   {
@@ -412,6 +420,32 @@ export const projectsData = [
     database: "MongoDB",
     deployment: "Vercel",
     category: "client-side, server-side",
+  },
+  {
+    id: 25,
+    image: projectImage25,
+    web: webLink25,
+    git: gitLink25,
+    title: "Notes & Login, Reg.",
+    language: "Python, Javascript",
+    languageFramework: "Django, React.js",
+    cssFramework: "Bootstrap",
+    database: "PostgreSQL",
+    deployment: "Choreo",
+    category: "server-side",
+  },
+  {
+    id: 26,
+    image: projectImage26,
+    web: webLink26,
+    git: gitLink26,
+    title: "Ecommerce -- Beauty",
+    language: "Python, Javascript",
+    languageFramework: "Django",
+    cssFramework: "Swiper Demo",
+    database: "",
+    deployment: "Render",
+    category: "client-side",
   },
 ];
 
