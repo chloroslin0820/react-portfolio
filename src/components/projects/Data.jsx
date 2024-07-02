@@ -52,6 +52,8 @@ const projectImage26 =
   "https://ik.imagekit.io/chlorosimg/project_image/p026.png?updatedAt=1719845600325";
 const projectImage27 = 
   "https://ik.imagekit.io/chlorosimg/project_image/p027.png?updatedAt=1719859331818";
+const projectImage28 = 
+  "https://ik.imagekit.io/chlorosimg/project_image/p028.png?updatedAt=1719907430816";
 
 const webLink1 = "https://chloroslin-react-tailwind-t01.vercel.app/";
 const webLink2 = "https://chloroslin-jsapi-tutorial01.vercel.app/";
@@ -83,6 +85,7 @@ const webLink24 = "https://chloroslin-nextjs-mongo-t01.vercel.app/";
 const webLink25 = "https://25ef2f19-fe81-4865-b3fc-eca279f210fc.e1-us-east-azure.choreoapps.dev/";
 const webLink26 = "https://django-t01.onrender.com/";
 const webLink27 = "https://chloroslin-django-t02.vercel.app/";
+const webLink28 = "https://chloroslin-django-t03.onrender.com/";
 
 const gitLink1 = "https://github.com/chloroslin0820/react-tailwind-t01";
 const gitLink2 = "https://github.com/chloroslin0820/js-api-tutorial01";
@@ -111,6 +114,7 @@ const gitLink24 = "https://github.com/chloroslin0820/nextjs-mongo-t01";
 const gitLink25 = "https://github.com/chloroslin0820/django-react-t01";
 const gitLink26 = "https://github.com/chloroslin0820/django-t01";
 const gitLink27 = "https://github.com/chloroslin0820/django-t02";
+const gitLink28 = "https://github.com/chloroslin0820/django-t03";
 
 export const projectsData = [
   {
@@ -463,6 +467,19 @@ export const projectsData = [
     database: "",
     deployment: "Vercel",
     category: "client-side",
+  },
+  {
+    id: 28,
+    image: projectImage28,
+    web: webLink28,
+    git: gitLink28,
+    title: "Webpage -- VBlog",
+    language: "Python",
+    languageFramework: "Django",
+    cssFramework: "Bootstrap",
+    database: "PostgreSQL",
+    deployment: "Render",
+    category: "client-side, database",
   },
 ];
 
