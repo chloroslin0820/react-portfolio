@@ -56,6 +56,8 @@ const projectImage28 =
   "https://ik.imagekit.io/chlorosimg/project_image/p028.png?updatedAt=1719907430816";
 const projectImage29 =
   "https://ik.imagekit.io/chlorosimg/project_image/p029.png?updatedAt=1719982447831";
+const projectImage30 =
+  "https://ik.imagekit.io/chlorosimg/project_image/p030.png?updatedAt=1720457467961";
 
 const webLink1 = "https://chloroslin-react-tailwind-t01.vercel.app/";
 const webLink2 = "https://chloroslin-jsapi-tutorial01.vercel.app/";
@@ -89,6 +91,7 @@ const webLink26 = "https://django-t01.onrender.com/";
 const webLink27 = "https://chloroslin-django-t02.vercel.app/";
 const webLink28 = "https://chloroslin-django-t03.onrender.com/";
 const webLink29 = "https://chloroslin-angular-t01.vercel.app/";
+const webLink30 = "https://chloroslin-angular-t02.vercel.app/";
 
 const gitLink1 = "https://github.com/chloroslin0820/react-tailwind-t01";
 const gitLink2 = "https://github.com/chloroslin0820/js-api-tutorial01";
@@ -119,6 +122,7 @@ const gitLink26 = "https://github.com/chloroslin0820/django-t01";
 const gitLink27 = "https://github.com/chloroslin0820/django-t02";
 const gitLink28 = "https://github.com/chloroslin0820/django-t03";
 const gitLink29 = "https://github.com/chloroslin0820/angular-t01";
+const gitLink30 = "https://github.com/chloroslin0820/angular-t02";
 
 export const projectsData = [
   {
@@ -494,6 +498,19 @@ export const projectsData = [
     language: "Typescript",
     languageFramework: "Angular",
     cssFramework: "Sassy CSS",
+    database: "",
+    deployment: "Vercel",
+    category: "client-side",
+  },
+  {
+    id: 30,
+    image: projectImage30,
+    web: webLink30,
+    git: gitLink30,
+    title: "Webpage -- CloudKitchen",
+    language: "Typescript",
+    languageFramework: "Angular",
+    cssFramework: "Bootstrap",
     database: "",
     deployment: "Vercel",
     category: "client-side",
