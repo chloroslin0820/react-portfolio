@@ -546,7 +546,7 @@ export const projectsData = [
     languageFramework: "Angular, Node.js",
     cssFramework: "SCSS",
     database: "",
-    deployment: "Vercel",
+    deployment: "Vercel, Render",
     category: "client-side, server-side",
   },
 ];
