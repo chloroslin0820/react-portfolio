@@ -66,6 +66,8 @@ const projectImage33 =
   "https://ik.imagekit.io/chlorosimg/project_image/p033.png?updatedAt=1721066502485";
 const projectImage34 =
   "https://ik.imagekit.io/chlorosimg/project_image/p034.png?updatedAt=1721092838923";
+const projectImage35 =
+  "https://ik.imagekit.io/chlorosimg/project_image/p035.png?updatedAt=1721621764170";
 
 const webLink1 = "https://chloroslin-react-tailwind-t01.vercel.app/";
 const webLink2 = "https://chloroslin-jsapi-tutorial01.vercel.app/";
@@ -104,6 +106,7 @@ const webLink31 = "https://chloroslin-react-tailwind-t02.vercel.app/";
 const webLink32 = "https://chloroslin-angular-t03.vercel.app/";
 const webLink33 = "https://chloroslin-spring-angular-t01.vercel.app/";
 const webLink34 = "https://chloroslin-react-tailwind-t03.vercel.app/";
+const webLink35 = "https://chloroslin-spring-angular-t02.vercel.app/";
 
 const gitLink1 = "https://github.com/chloroslin0820/react-tailwind-t01";
 const gitLink2 = "https://github.com/chloroslin0820/js-api-tutorial01";
@@ -139,6 +142,7 @@ const gitLink31 = "https://github.com/chloroslin0820/react-tailwind-t02";
 const gitLink32 = "https://github.com/topics/chloroslin-angular-t03";
 const gitLink33 = "https://github.com/topics/chloroslin-spring-angular-t01";
 const gitLink34 = "https://github.com/chloroslin0820/react-tailwind-t03";
+const gitLink35 = "https://github.com/topics/chloroslin-spring-angular-t02";
 
 export const projectsData = [
   {
@@ -582,6 +586,19 @@ export const projectsData = [
     database: "",
     deployment: "Vercel",
     category: "client-side, server-side",
+  },
+  {
+    id: 35,
+    image: projectImage35,
+    web: webLink35,
+    git: gitLink35,
+    title: "Car Rental Webpage",
+    language: "Java, Typescript",
+    languageFramework: "Spring Boot, Angular",
+    cssFramework: "SCSS, Angular Material UI, NG ZORRO",
+    database: "MySQL",
+    deployment: "Vercel, Render, AWS RDS",
+    category: "client-side, server-side, database",
   },
 ];
 
