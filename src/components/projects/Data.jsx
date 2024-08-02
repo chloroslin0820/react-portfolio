@@ -557,7 +557,7 @@ export const projectsData = [
     image: projectImage32,
     web: webLink32,
     git: gitLink32,
-    title: "Webpage -- Ecommerce Fashion",
+    title: "Webpage -- Fashion",
     language: "Typescript, Javascript",
     languageFramework: "Angular, Node.js",
     cssFramework: "SCSS",
